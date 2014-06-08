@@ -12,7 +12,7 @@
 </script>
 
 <div id="tasks">
-    <a class="button big" href="${ ui.pageLink("emr", "account/changePassword") }">
+    <a class="button big" href="${ ui.pageLink("admintoolsui", "account/changePassword") }">
         <div class="task">
             <i class="icon-book"></i>
             ${ ui.message("emr.task.myAccount.changePassword.label") }

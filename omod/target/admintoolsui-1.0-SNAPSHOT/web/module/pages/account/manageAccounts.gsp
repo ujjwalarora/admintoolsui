@@ -1,11 +1,11 @@
 <%
     ui.decorateWith("appui", "standardEmrPage")
-    ui.includeCss("mirebalais", "account.css")
+    ui.includeCss("admintoolsui", "account.css")
 %>
 <script type="text/javascript">
     var breadcrumbs = [
         { icon: "icon-home", link: '/' + OPENMRS_CONTEXT_PATH + '/index.htm' },
-        { label: "${ ui.message("emr.app.systemAdministration.label")}", link: '${ui.pageLink("coreapps", "systemadministration/systemAdministration")}' },
+        { label: "${ ui.message("admintoolsui.app.system.administration.accountManager.label")}", link: '${ui.pageLink("coreapps", "systemadministration/systemAdministration")}' },
         { label: "${ ui.message("emr.task.accountManagement.label")}" }
     ];
 </script>
