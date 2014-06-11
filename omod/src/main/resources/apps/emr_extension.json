@@ -19,7 +19,7 @@
         "type": "link",
         "label": "admintoolsui.app.system.administration.accountManager.label",
         "url": "admintoolsui/account/manageAccounts.page",
-        "icon": "icon-edit-sign",
+        "icon": "icon-edit",
         "order": 13,
         "requiredPrivilege": "Allowed for everyone",
         "extensionParams": {
